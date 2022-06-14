@@ -3,7 +3,7 @@ export default function returnHowManyArguments(...theArgs) {
 
         for (const arg of theArgs)
         {
-                count += 1;
+                count = count + 1;
         }
 
         return (count);
