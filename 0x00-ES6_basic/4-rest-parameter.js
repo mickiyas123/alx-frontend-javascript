@@ -4,6 +4,5 @@ export default function returnHowManyArguments(...theArgs) {
         for (const arg of theArgs) {
                 count = count + 1;
         }
-
-        return (count);
+        return count;
 }
