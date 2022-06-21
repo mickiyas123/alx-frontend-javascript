@@ -7,5 +7,5 @@ export default function createInt8TypedArray(length, position, value) {
   idView[position] = value;
   console.log(idView);
 
-  return idView;
+  return new DataView(buffer);
 }
