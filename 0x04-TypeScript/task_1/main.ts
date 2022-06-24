@@ -8,15 +8,15 @@ interface Teacher {
 }
 
 // Input 
-// const teacher3: Teacher = {
-//     firstName: 'John',
-//     fullTimeEmployee: false,
-//     lastName: 'Doe',
-//     location: 'London',
-//     contract: false,
-//   };
+const teacher3: Teacher = {
+    firstName: 'John',
+    fullTimeEmployee: false,
+    lastName: 'Doe',
+    location: 'London',
+    contract: false,
+  };
 
-// console.log(teacher3);
+console.log(teacher3);
 
 // Output
 
@@ -32,14 +32,15 @@ interface Directors extends Teacher {
 }
 
 // Input
-// const director1: Directors = {
-//     firstName: 'John',
-//     lastName: 'Doe',
-//     location: 'London',
-//     fullTimeEmployee: true,
-//     numberOfReports: 17,
-//   };
+const director1: Directors = {
+    firstName: 'John',
+    lastName: 'Doe',
+    location: 'London',
+    fullTimeEmployee: true,
+    numberOfReports: 17,
+  };
 
+console.log(director1);
 // Output
 // Object
 // firstName: "John"
@@ -59,12 +60,12 @@ function printTeacher(inputString: printTeacherFunction) : string {
 }
 
 // Input
-// const teacher: printTeacherFunction = {
-//     firstName: "John",
-//     lastName: "Doe"
-// }
+const teacher: printTeacherFunction = {
+    firstName: "John",
+    lastName: "Doe"
+}
 
-// console.log(printTeacher(teacher));
+console.log(printTeacher(teacher));
 
 // Output
 // J. Doe 
