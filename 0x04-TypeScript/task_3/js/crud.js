@@ -3,6 +3,7 @@ export function insertRow(row) {
   return Math.floor(Math.random() * Math.floor(1000));
 }
 
+
 export function deleteRow(rowId) {
   console.log('Delete row id', rowId);
 }
